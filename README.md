@@ -1,83 +1,130 @@
-# 🖥️ Linux Server Monitoring Dashboard
+# Linux Server Monitoring Dashboard
 
-A professional Bash scripting project that monitors the health and performance of an Ubuntu/Linux server through a clean terminal dashboard.
+## Overview
 
-## 📌 Features
+This project is a Linux Server Monitoring Dashboard developed using Bash scripting on Ubuntu Linux. It provides real-time system monitoring through a simple and user-friendly terminal dashboard.
 
-- 🖥️ System Information
-- ⚙️ CPU Usage Monitoring
-- 🧠 Memory Usage Monitoring
-- 💾 Disk Usage Monitoring
-- ⏳ System Uptime
-- 🌐 Network Information
-- 🔥 Top Running Processes
-- 📦 Running Services Status
-- 📊 Progress Bars
-- 🎨 Colored Dashboard
-- ⚠️ Resource Usage Alerts
-- 📝 Log Generation
+The script monitors CPU usage, memory usage, disk usage, system uptime, network information, running services, top CPU and memory consuming processes, health status, and stores monitoring logs for future reference.
 
-## 🛠️ Technologies Used
+---
+
+## Features
+
+- System Information
+- CPU Usage Monitoring
+- Memory Usage Monitoring
+- Disk Usage Monitoring
+- System Uptime
+- Network Information
+- Running Services Status
+- Top CPU Processes
+- Top Memory Processes
+- Progress Bars
+- Health Summary
+- Monitoring Logs
+
+## Technologies Used
 
 - Bash Shell Scripting
 - Ubuntu Linux
 - Linux Commands
-- System Monitoring Tools
+- System Monitoring Utilities
 
-## 📂 Project Structure
+---
 
-```
-server-monitor-dashboard/
+## Project Structure
+
+```text
+Server-Monitoring-Script-Bash-/
 │
 ├── monitor.sh
 ├── README.md
-├── screenshots/
+├── LICENSE
 ├── logs/
-└── LICENSE
+│   └── monitor.log
+│
+└── screenshots/
+    ├── dashboard.png
+    ├── resource-monitor.png
+    ├── processes.png
+    ├── health-summary.png
+    └── logs.png
 ```
 
-## 🚀 How to Run
+## Installation
 
-Clone the repository
+Clone the repository.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Yashwanth127/Server-Monitoring-Script-Bash-.git
 ```
 
-Go to the project directory
+Move into the project folder.
 
 ```bash
-cd server-monitor-dashboard
+cd Server-Monitoring-Script-Bash-
 ```
 
-Make the script executable
+Make the script executable.
 
 ```bash
 chmod +x monitor.sh
 ```
 
-Run the script
+Run the script.
 
 ```bash
 ./monitor.sh
 ```
 
-## 📷 Screenshots
+## Screenshots
 
-Screenshots will be added after project completion.
+### Dashboard
 
-## 📈 Future Improvements
-
-- Email notifications
-- Auto-refresh dashboard
-- CSV report generation
-- Cron job scheduling
-- Docker container monitoring
-- Multiple server support
-
-## 👨‍💻 Author
-
-Yashwanth Kumar S
+![Dashboard](screenshots/dashboard.png)
 
 ---
-Made with ❤️ using Bash on Ubuntu Linux.
+
+### Resource Monitoring
+
+![Resource Monitoring](screenshots/resource-monitor.png)
+
+---
+
+### Running Services
+
+![Processes](screenshots/processes.png)
+
+---
+
+### Health Summary
+
+![Health Summary](screenshots/health-summary.png)
+
+---
+
+### Monitoring Logs
+
+![Logs](screenshots/logs.png)
+
+## Future Improvements
+
+- Email notifications
+- Docker container monitoring
+- Auto-refresh dashboard
+- CSV report generation
+- Cron Job Scheduling
+- Multiple Server Monitoring
+
+---
+
+## Author
+
+**Yashwanth Kumar S**
+
+MCA Graduate (2025)
+
+Linux | Bash | Python | AWS | DevOps Learner | Networking | CyberSecurity
+
+GitHub:
+https://github.com/Yashwanth127
